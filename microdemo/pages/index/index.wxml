@@ -1,0 +1,7 @@
+<!--index.wxml-->
+
+  <scroll-view class="list" scroll-y style="height: 500px;" scroll-top="{{scrollTop}}">
+    <view style="height: 30px;border:1px solid #4b4b4b;" wx:for="{{listData}}" wx:key="index">{{item}}</view>
+  </scroll-view>
+  <button bindtap="back">回顶部</button>
+
